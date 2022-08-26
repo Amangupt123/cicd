@@ -1,9 +1,9 @@
 
-name: CI
+name: cicd
 on:
   pull_request:
     branches:
-      - master
+      - test-branch
 
 jobs:
   flutter_test:
